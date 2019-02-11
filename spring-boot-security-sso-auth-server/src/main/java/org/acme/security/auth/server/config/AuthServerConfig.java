@@ -23,7 +23,7 @@ public class AuthServerConfig extends AuthorizationServerConfigurerAdapter {
 	@Override
 	public void configure(final ClientDetailsServiceConfigurer clients) throws Exception {
 		clients.inMemory()//@formatter:off
-			   .withClient("SampleClientId").secret(passwordEncoder.encode("sampleSecret"))
+			   .withClient("SampleClientId").secret(passwordEncoder.encode("SampleSecret"))
 			   .authorizedGrantTypes("authorization_code")
 			   .scopes("user_info")
 			   .autoApprove(true)

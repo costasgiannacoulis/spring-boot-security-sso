@@ -9,7 +9,7 @@ security:
   oauth2:
     client:
       clientId: SampleClientId
-      clientSecret: sampleSecret
+      clientSecret: SampleSecret
       accessTokenUri: http://localhost:8081/auth-server/oauth/token
       userAuthorizationUri: http://localhost:8081/auth-server/oauth/authorize
     resource:
